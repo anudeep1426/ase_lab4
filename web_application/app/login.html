@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="LoginApp">
+<head>
+    <title>Login Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="database.js"></script>
+    <style>
+        div.project {
+
+            color:white;
+            margin:20px;
+            padding:20px;
+        }
+
+    </style>
+</head>
+
+
+<body ng-controller="LoginController" background="bacimg.jpg">
+
+<div class="project"
+align="center">
+    <h1 align="center"><b>Login Page</b></h1>
+</div>
+
+<div align="center">
+<br><br>
+    <b> UserName:</b>
+    <input type="text" ng-model="userName"><br><br>
+    <b>Password  : </b>
+    <input type="password" ng-model="password">
+    <br><br><br>
+    <button  onclick="window.location='maps1.html'" value="Register">Submit
+    </button>
+
+    <button onclick="window.location='Register.html'" value="Register">Register</button>
+    <br><br><a href="http://www.google.com/">Forgot pasgsword?</a>
+
+</div>
+</body>
+</html>
